@@ -2,12 +2,39 @@
 
 ## Requirements
 
-- Wire
+- Go v1.19
+- Wire v5.0.0
   
 ## How To Run
 
-Install wire (if you don't have it already)
+Install dependency
   
 ```
-go install github.com/google/wire/cmd/wire@latest
+make setup
+```
+
+Build the application
+  
+```
+make build
+```
+
+Run the application
+  
+```
+./bin/user
+```
+
+## Generating Dependency Injection Code
+
+Install dependency
+  
+```
+make setup
+```
+
+Generate dependency injection code
+  
+```
+make wire
 ```
