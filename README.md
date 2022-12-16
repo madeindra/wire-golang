@@ -1,5 +1,7 @@
 # Dependency Injection in Golang with Wire
 
+Please refer to [main.go](./cmd/user/main.go) file for explanation of the usage.
+
 ## Requirements
 
 - Go v1.19
